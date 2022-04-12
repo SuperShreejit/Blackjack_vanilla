@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(darkgreen, seagreen, green);
+  height: 100vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: large;
+  color: aliceblue;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: darkorange;
+  text-align: center;
+  margin: 25px;
+  padding: 5px;
+}
+
+p {
+  font-weight: bold;
+  margin: 10px;
+  padding: 5px;
+}
+
+#result {
+  color: darkorange;
+  text-transform: capitalize;
+}
+button{
+  background-color: darkorange;
+  color: green;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: large;    
+}
+button:hover{
+  background-color: yellow;
+}
+button:active{
+  background-color: darkgoldenrod;
+}
+button:disabled{
+  background-color: darkgray;
+}
